@@ -1,0 +1,734 @@
+==========================================================================NORMAL V RANDOM =================================================================
+
+set seed(100)
+
+
+-------------------------------------------------------------------
+
+			 Tic-Tac-Toe
+
+-------------------------------------------------------------------
+
+
+
+=================================INSTANCE#1====================================
+
+
+Choose a cell numbered from 1 to 9 as below and play
+
+			 1 | 2 | 3 
+			-----------
+			 4 | 5 | 6 
+			-----------
+			 7 | 8 | 9 
+
+You can insert in the following positions : 1 2 3 4 5 6 7 8 9 
+
+Enter the position = 
+RANDOM has put a X in cell 6
+
+			 * | * | * 
+			-----------
+			 * | * | X 
+			-----------
+			 * | * | * 
+
+COMPUTER has put a O in cell 3
+
+			 * | * | O 
+			-----------
+			 * | * | X 
+			-----------
+			 * | * | * 
+
+You can insert in the following positions : 1 2 4 5 7 8 9 
+
+Enter the position = 
+RANDOM has put a X in cell 9
+
+			 * | * | O 
+			-----------
+			 * | * | X 
+			-----------
+			 * | * | X 
+
+COMPUTER has put a O in cell 1
+
+			 O | * | O 
+			-----------
+			 * | * | X 
+			-----------
+			 * | * | X 
+
+You can insert in the following positions : 2 4 5 7 8 
+
+Enter the position = You can insert in the following positions : 2 4 5 7 8 
+
+Enter the position = 
+RANDOM has put a X in cell 8
+
+			 O | * | O 
+			-----------
+			 * | * | X 
+			-----------
+			 * | X | X 
+
+COMPUTER has put a O in cell 2
+
+			 O | O | O 
+			-----------
+			 * | * | X 
+			-----------
+			 * | X | X 
+
+COMPUTER has won
+
+
+=================================INSTANCE#2====================================
+
+
+Choose a cell numbered from 1 to 9 as below and play
+
+			 1 | 2 | 3 
+			-----------
+			 4 | 5 | 6 
+			-----------
+			 7 | 8 | 9 
+
+COMPUTER has put a O in cell 1
+
+			 O | * | * 
+			-----------
+			 * | * | * 
+			-----------
+			 * | * | * 
+
+You can insert in the following positions : 2 3 4 5 6 7 8 9 
+
+Enter the position = 
+RANDOM has put a X in cell 2
+
+			 O | X | * 
+			-----------
+			 * | * | * 
+			-----------
+			 * | * | * 
+
+COMPUTER has put a O in cell 4
+
+			 O | X | * 
+			-----------
+			 O | * | * 
+			-----------
+			 * | * | * 
+
+You can insert in the following positions : 3 5 6 7 8 9 
+
+Enter the position = You can insert in the following positions : 3 5 6 7 8 9 
+
+Enter the position = 
+RANDOM has put a X in cell 5
+
+			 O | X | * 
+			-----------
+			 O | X | * 
+			-----------
+			 * | * | * 
+
+COMPUTER has put a O in cell 7
+
+			 O | X | * 
+			-----------
+			 O | X | * 
+			-----------
+			 O | * | * 
+
+COMPUTER has won
+
+
+=================================INSTANCE#3====================================
+
+
+Choose a cell numbered from 1 to 9 as below and play
+
+			 1 | 2 | 3 
+			-----------
+			 4 | 5 | 6 
+			-----------
+			 7 | 8 | 9 
+
+COMPUTER has put a O in cell 1
+
+			 O | * | * 
+			-----------
+			 * | * | * 
+			-----------
+			 * | * | * 
+
+You can insert in the following positions : 2 3 4 5 6 7 8 9 
+
+Enter the position = You can insert in the following positions : 2 3 4 5 6 7 8 9 
+
+Enter the position = 
+RANDOM has put a X in cell 5
+
+			 O | * | * 
+			-----------
+			 * | X | * 
+			-----------
+			 * | * | * 
+
+COMPUTER has put a O in cell 2
+
+			 O | O | * 
+			-----------
+			 * | X | * 
+			-----------
+			 * | * | * 
+
+You can insert in the following positions : 3 4 6 7 8 9 
+
+Enter the position = 
+RANDOM has put a X in cell 9
+
+			 O | O | * 
+			-----------
+			 * | X | * 
+			-----------
+			 * | * | X 
+
+COMPUTER has put a O in cell 3
+
+			 O | O | O 
+			-----------
+			 * | X | * 
+			-----------
+			 * | * | X 
+
+COMPUTER has won
+
+
+=================================INSTANCE#4====================================
+
+
+Choose a cell numbered from 1 to 9 as below and play
+
+			 1 | 2 | 3 
+			-----------
+			 4 | 5 | 6 
+			-----------
+			 7 | 8 | 9 
+
+COMPUTER has put a O in cell 1
+
+			 O | * | * 
+			-----------
+			 * | * | * 
+			-----------
+			 * | * | * 
+
+You can insert in the following positions : 2 3 4 5 6 7 8 9 
+
+Enter the position = You can insert in the following positions : 2 3 4 5 6 7 8 9 
+
+Enter the position = 
+RANDOM has put a X in cell 8
+
+			 O | * | * 
+			-----------
+			 * | * | * 
+			-----------
+			 * | X | * 
+
+COMPUTER has put a O in cell 3
+
+			 O | * | O 
+			-----------
+			 * | * | * 
+			-----------
+			 * | X | * 
+
+You can insert in the following positions : 2 4 5 6 7 9 
+
+Enter the position = 
+RANDOM has put a X in cell 2
+
+			 O | X | O 
+			-----------
+			 * | * | * 
+			-----------
+			 * | X | * 
+
+COMPUTER has put a O in cell 5
+
+			 O | X | O 
+			-----------
+			 * | O | * 
+			-----------
+			 * | X | * 
+
+You can insert in the following positions : 4 6 7 9 
+
+Enter the position = 
+RANDOM has put a X in cell 7
+
+			 O | X | O 
+			-----------
+			 * | O | * 
+			-----------
+			 X | X | * 
+
+COMPUTER has put a O in cell 9
+
+			 O | X | O 
+			-----------
+			 * | O | * 
+			-----------
+			 X | X | O 
+
+COMPUTER has won
+
+
+=================================INSTANCE#5====================================
+
+
+Choose a cell numbered from 1 to 9 as below and play
+
+			 1 | 2 | 3 
+			-----------
+			 4 | 5 | 6 
+			-----------
+			 7 | 8 | 9 
+
+You can insert in the following positions : 1 2 3 4 5 6 7 8 9 
+
+Enter the position = 
+RANDOM has put a X in cell 7
+
+			 * | * | * 
+			-----------
+			 * | * | * 
+			-----------
+			 X | * | * 
+
+COMPUTER has put a O in cell 5
+
+			 * | * | * 
+			-----------
+			 * | O | * 
+			-----------
+			 X | * | * 
+
+You can insert in the following positions : 1 2 3 4 6 8 9 
+
+Enter the position = 
+RANDOM has put a X in cell 2
+
+			 * | X | * 
+			-----------
+			 * | O | * 
+			-----------
+			 X | * | * 
+
+COMPUTER has put a O in cell 1
+
+			 O | X | * 
+			-----------
+			 * | O | * 
+			-----------
+			 X | * | * 
+
+You can insert in the following positions : 3 4 6 8 9 
+
+Enter the position = 
+RANDOM has put a X in cell 3
+
+			 O | X | X 
+			-----------
+			 * | O | * 
+			-----------
+			 X | * | * 
+
+COMPUTER has put a O in cell 4
+
+			 O | X | X 
+			-----------
+			 O | O | * 
+			-----------
+			 X | * | * 
+
+You can insert in the following positions : 6 8 9 
+
+Enter the position = You can insert in the following positions : 6 8 9 
+
+Enter the position = You can insert in the following positions : 6 8 9 
+
+Enter the position = You can insert in the following positions : 6 8 9 
+
+Enter the position = 
+RANDOM has put a X in cell 8
+
+			 O | X | X 
+			-----------
+			 O | O | * 
+			-----------
+			 X | X | * 
+
+COMPUTER has put a O in cell 6
+
+			 O | X | X 
+			-----------
+			 O | O | O 
+			-----------
+			 X | X | * 
+
+COMPUTER has won
+
+
+=================================INSTANCE#6====================================
+
+
+Choose a cell numbered from 1 to 9 as below and play
+
+			 1 | 2 | 3 
+			-----------
+			 4 | 5 | 6 
+			-----------
+			 7 | 8 | 9 
+
+COMPUTER has put a O in cell 1
+
+			 O | * | * 
+			-----------
+			 * | * | * 
+			-----------
+			 * | * | * 
+
+You can insert in the following positions : 2 3 4 5 6 7 8 9 
+
+Enter the position = You can insert in the following positions : 2 3 4 5 6 7 8 9 
+
+Enter the position = 
+RANDOM has put a X in cell 9
+
+			 O | * | * 
+			-----------
+			 * | * | * 
+			-----------
+			 * | * | X 
+
+COMPUTER has put a O in cell 3
+
+			 O | * | O 
+			-----------
+			 * | * | * 
+			-----------
+			 * | * | X 
+
+You can insert in the following positions : 2 4 5 6 7 8 
+
+Enter the position = You can insert in the following positions : 2 4 5 6 7 8 
+
+Enter the position = You can insert in the following positions : 2 4 5 6 7 8 
+
+Enter the position = You can insert in the following positions : 2 4 5 6 7 8 
+
+Enter the position = 
+RANDOM has put a X in cell 6
+
+			 O | * | O 
+			-----------
+			 * | * | X 
+			-----------
+			 * | * | X 
+
+COMPUTER has put a O in cell 2
+
+			 O | O | O 
+			-----------
+			 * | * | X 
+			-----------
+			 * | * | X 
+
+COMPUTER has won
+
+
+=================================INSTANCE#7====================================
+
+
+Choose a cell numbered from 1 to 9 as below and play
+
+			 1 | 2 | 3 
+			-----------
+			 4 | 5 | 6 
+			-----------
+			 7 | 8 | 9 
+
+COMPUTER has put a O in cell 1
+
+			 O | * | * 
+			-----------
+			 * | * | * 
+			-----------
+			 * | * | * 
+
+You can insert in the following positions : 2 3 4 5 6 7 8 9 
+
+Enter the position = 
+RANDOM has put a X in cell 3
+
+			 O | * | X 
+			-----------
+			 * | * | * 
+			-----------
+			 * | * | * 
+
+COMPUTER has put a O in cell 4
+
+			 O | * | X 
+			-----------
+			 O | * | * 
+			-----------
+			 * | * | * 
+
+You can insert in the following positions : 2 5 6 7 8 9 
+
+Enter the position = You can insert in the following positions : 2 5 6 7 8 9 
+
+Enter the position = You can insert in the following positions : 2 5 6 7 8 9 
+
+Enter the position = You can insert in the following positions : 2 5 6 7 8 9 
+
+Enter the position = You can insert in the following positions : 2 5 6 7 8 9 
+
+Enter the position = 
+RANDOM has put a X in cell 5
+
+			 O | * | X 
+			-----------
+			 O | X | * 
+			-----------
+			 * | * | * 
+
+COMPUTER has put a O in cell 7
+
+			 O | * | X 
+			-----------
+			 O | X | * 
+			-----------
+			 O | * | * 
+
+COMPUTER has won
+
+
+=================================INSTANCE#8====================================
+
+
+Choose a cell numbered from 1 to 9 as below and play
+
+			 1 | 2 | 3 
+			-----------
+			 4 | 5 | 6 
+			-----------
+			 7 | 8 | 9 
+
+COMPUTER has put a O in cell 1
+
+			 O | * | * 
+			-----------
+			 * | * | * 
+			-----------
+			 * | * | * 
+
+You can insert in the following positions : 2 3 4 5 6 7 8 9 
+
+Enter the position = 
+RANDOM has put a X in cell 4
+
+			 O | * | * 
+			-----------
+			 X | * | * 
+			-----------
+			 * | * | * 
+
+COMPUTER has put a O in cell 2
+
+			 O | O | * 
+			-----------
+			 X | * | * 
+			-----------
+			 * | * | * 
+
+You can insert in the following positions : 3 5 6 7 8 9 
+
+Enter the position = 
+RANDOM has put a X in cell 9
+
+			 O | O | * 
+			-----------
+			 X | * | * 
+			-----------
+			 * | * | X 
+
+COMPUTER has put a O in cell 3
+
+			 O | O | O 
+			-----------
+			 X | * | * 
+			-----------
+			 * | * | X 
+
+COMPUTER has won
+
+
+=================================INSTANCE#9====================================
+
+
+Choose a cell numbered from 1 to 9 as below and play
+
+			 1 | 2 | 3 
+			-----------
+			 4 | 5 | 6 
+			-----------
+			 7 | 8 | 9 
+
+You can insert in the following positions : 1 2 3 4 5 6 7 8 9 
+
+Enter the position = 
+RANDOM has put a X in cell 2
+
+			 * | X | * 
+			-----------
+			 * | * | * 
+			-----------
+			 * | * | * 
+
+COMPUTER has put a O in cell 1
+
+			 O | X | * 
+			-----------
+			 * | * | * 
+			-----------
+			 * | * | * 
+
+You can insert in the following positions : 3 4 5 6 7 8 9 
+
+Enter the position = 
+RANDOM has put a X in cell 7
+
+			 O | X | * 
+			-----------
+			 * | * | * 
+			-----------
+			 X | * | * 
+
+COMPUTER has put a O in cell 5
+
+			 O | X | * 
+			-----------
+			 * | O | * 
+			-----------
+			 X | * | * 
+
+You can insert in the following positions : 3 4 6 8 9 
+
+Enter the position = 
+RANDOM has put a X in cell 6
+
+			 O | X | * 
+			-----------
+			 * | O | X 
+			-----------
+			 X | * | * 
+
+COMPUTER has put a O in cell 9
+
+			 O | X | * 
+			-----------
+			 * | O | X 
+			-----------
+			 X | * | O 
+
+COMPUTER has won
+
+
+=================================INSTANCE#10====================================
+
+
+Choose a cell numbered from 1 to 9 as below and play
+
+			 1 | 2 | 3 
+			-----------
+			 4 | 5 | 6 
+			-----------
+			 7 | 8 | 9 
+
+You can insert in the following positions : 1 2 3 4 5 6 7 8 9 
+
+Enter the position = 
+RANDOM has put a X in cell 5
+
+			 * | * | * 
+			-----------
+			 * | X | * 
+			-----------
+			 * | * | * 
+
+COMPUTER has put a O in cell 1
+
+			 O | * | * 
+			-----------
+			 * | X | * 
+			-----------
+			 * | * | * 
+
+You can insert in the following positions : 2 3 4 6 7 8 9 
+
+Enter the position = 
+RANDOM has put a X in cell 9
+
+			 O | * | * 
+			-----------
+			 * | X | * 
+			-----------
+			 * | * | X 
+
+COMPUTER has put a O in cell 3
+
+			 O | * | O 
+			-----------
+			 * | X | * 
+			-----------
+			 * | * | X 
+
+You can insert in the following positions : 2 4 6 7 8 
+
+Enter the position = 
+RANDOM has put a X in cell 7
+
+			 O | * | O 
+			-----------
+			 * | X | * 
+			-----------
+			 X | * | X 
+
+COMPUTER has put a O in cell 2
+
+			 O | O | O 
+			-----------
+			 * | X | * 
+			-----------
+			 X | * | X 
+
+COMPUTER has won
+
+-------------------------------------------------------------------
+
+
+
+AFTER 10 TRIALS; 
+AI WINS: 10
+DRAWS: 0
+RANDOM WINS: 0
+
+-------------------------------------------------------------------

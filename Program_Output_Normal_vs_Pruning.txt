@@ -1,0 +1,843 @@
+==========================================================================NORMAL V PRUNING =================================================================
+
+set seed(100)
+
+
+-------------------------------------------------------------------
+
+			 Tic-Tac-Toe
+
+-------------------------------------------------------------------
+
+
+Choose a cell numbered from 1 to 9 as below and play
+
+			 1 | 2 | 3 
+			-----------
+			 4 | 5 | 6 
+			-----------
+			 7 | 8 | 9 
+
+NORMAL has put a X in cell 5
+
+			 * | * | * 
+			-----------
+			 * | X | * 
+			-----------
+			 * | * | * 
+
+PRUNE has put a O in cell 1
+
+			 O | * | * 
+			-----------
+			 * | X | * 
+			-----------
+			 * | * | * 
+
+NORMAL has put a X in cell 2
+
+			 O | X | * 
+			-----------
+			 * | X | * 
+			-----------
+			 * | * | * 
+
+PRUNE has put a O in cell 8
+
+			 O | X | * 
+			-----------
+			 * | X | * 
+			-----------
+			 * | O | * 
+
+NORMAL has put a X in cell 4
+
+			 O | X | * 
+			-----------
+			 X | X | * 
+			-----------
+			 * | O | * 
+
+PRUNE has put a O in cell 6
+
+			 O | X | * 
+			-----------
+			 X | X | O 
+			-----------
+			 * | O | * 
+
+NORMAL has put a X in cell 3
+
+			 O | X | X 
+			-----------
+			 X | X | O 
+			-----------
+			 * | O | * 
+
+PRUNE has put a O in cell 7
+
+			 O | X | X 
+			-----------
+			 X | X | O 
+			-----------
+			 O | O | * 
+
+NORMAL has put a X in cell 9
+
+			 O | X | X 
+			-----------
+			 X | X | O 
+			-----------
+			 O | O | X 
+
+It's a draw
+
+Choose a cell numbered from 1 to 9 as below and play
+
+			 1 | 2 | 3 
+			-----------
+			 4 | 5 | 6 
+			-----------
+			 7 | 8 | 9 
+
+PRUNE has put a O in cell 6
+
+			 * | * | * 
+			-----------
+			 * | * | O 
+			-----------
+			 * | * | * 
+
+NORMAL has put a X in cell 3
+
+			 * | * | X 
+			-----------
+			 * | * | O 
+			-----------
+			 * | * | * 
+
+PRUNE has put a O in cell 1
+
+			 O | * | X 
+			-----------
+			 * | * | O 
+			-----------
+			 * | * | * 
+
+NORMAL has put a X in cell 4
+
+			 O | * | X 
+			-----------
+			 X | * | O 
+			-----------
+			 * | * | * 
+
+PRUNE has put a O in cell 2
+
+			 O | O | X 
+			-----------
+			 X | * | O 
+			-----------
+			 * | * | * 
+
+NORMAL has put a X in cell 5
+
+			 O | O | X 
+			-----------
+			 X | X | O 
+			-----------
+			 * | * | * 
+
+PRUNE has put a O in cell 7
+
+			 O | O | X 
+			-----------
+			 X | X | O 
+			-----------
+			 O | * | * 
+
+NORMAL has put a X in cell 8
+
+			 O | O | X 
+			-----------
+			 X | X | O 
+			-----------
+			 O | X | * 
+
+PRUNE has put a O in cell 9
+
+			 O | O | X 
+			-----------
+			 X | X | O 
+			-----------
+			 O | X | O 
+
+It's a draw
+
+Choose a cell numbered from 1 to 9 as below and play
+
+			 1 | 2 | 3 
+			-----------
+			 4 | 5 | 6 
+			-----------
+			 7 | 8 | 9 
+
+NORMAL has put a X in cell 2
+
+			 * | X | * 
+			-----------
+			 * | * | * 
+			-----------
+			 * | * | * 
+
+PRUNE has put a O in cell 1
+
+			 O | X | * 
+			-----------
+			 * | * | * 
+			-----------
+			 * | * | * 
+
+NORMAL has put a X in cell 4
+
+			 O | X | * 
+			-----------
+			 X | * | * 
+			-----------
+			 * | * | * 
+
+PRUNE has put a O in cell 5
+
+			 O | X | * 
+			-----------
+			 X | O | * 
+			-----------
+			 * | * | * 
+
+NORMAL has put a X in cell 9
+
+			 O | X | * 
+			-----------
+			 X | O | * 
+			-----------
+			 * | * | X 
+
+PRUNE has put a O in cell 3
+
+			 O | X | O 
+			-----------
+			 X | O | * 
+			-----------
+			 * | * | X 
+
+NORMAL has put a X in cell 7
+
+			 O | X | O 
+			-----------
+			 X | O | * 
+			-----------
+			 X | * | X 
+
+PRUNE has put a O in cell 8
+
+			 O | X | O 
+			-----------
+			 X | O | * 
+			-----------
+			 X | O | X 
+
+NORMAL has put a X in cell 6
+
+			 O | X | O 
+			-----------
+			 X | O | X 
+			-----------
+			 X | O | X 
+
+It's a draw
+
+Choose a cell numbered from 1 to 9 as below and play
+
+			 1 | 2 | 3 
+			-----------
+			 4 | 5 | 6 
+			-----------
+			 7 | 8 | 9 
+
+PRUNE has put a O in cell 1
+
+			 O | * | * 
+			-----------
+			 * | * | * 
+			-----------
+			 * | * | * 
+
+NORMAL has put a X in cell 5
+
+			 O | * | * 
+			-----------
+			 * | X | * 
+			-----------
+			 * | * | * 
+
+PRUNE has put a O in cell 2
+
+			 O | O | * 
+			-----------
+			 * | X | * 
+			-----------
+			 * | * | * 
+
+NORMAL has put a X in cell 3
+
+			 O | O | X 
+			-----------
+			 * | X | * 
+			-----------
+			 * | * | * 
+
+PRUNE has put a O in cell 7
+
+			 O | O | X 
+			-----------
+			 * | X | * 
+			-----------
+			 O | * | * 
+
+NORMAL has put a X in cell 4
+
+			 O | O | X 
+			-----------
+			 X | X | * 
+			-----------
+			 O | * | * 
+
+PRUNE has put a O in cell 6
+
+			 O | O | X 
+			-----------
+			 X | X | O 
+			-----------
+			 O | * | * 
+
+NORMAL has put a X in cell 8
+
+			 O | O | X 
+			-----------
+			 X | X | O 
+			-----------
+			 O | X | * 
+
+PRUNE has put a O in cell 9
+
+			 O | O | X 
+			-----------
+			 X | X | O 
+			-----------
+			 O | X | O 
+
+It's a draw
+
+Choose a cell numbered from 1 to 9 as below and play
+
+			 1 | 2 | 3 
+			-----------
+			 4 | 5 | 6 
+			-----------
+			 7 | 8 | 9 
+
+NORMAL has put a X in cell 6
+
+			 * | * | * 
+			-----------
+			 * | * | X 
+			-----------
+			 * | * | * 
+
+PRUNE has put a O in cell 3
+
+			 * | * | O 
+			-----------
+			 * | * | X 
+			-----------
+			 * | * | * 
+
+NORMAL has put a X in cell 1
+
+			 X | * | O 
+			-----------
+			 * | * | X 
+			-----------
+			 * | * | * 
+
+PRUNE has put a O in cell 4
+
+			 X | * | O 
+			-----------
+			 O | * | X 
+			-----------
+			 * | * | * 
+
+NORMAL has put a X in cell 2
+
+			 X | X | O 
+			-----------
+			 O | * | X 
+			-----------
+			 * | * | * 
+
+PRUNE has put a O in cell 5
+
+			 X | X | O 
+			-----------
+			 O | O | X 
+			-----------
+			 * | * | * 
+
+NORMAL has put a X in cell 7
+
+			 X | X | O 
+			-----------
+			 O | O | X 
+			-----------
+			 X | * | * 
+
+PRUNE has put a O in cell 8
+
+			 X | X | O 
+			-----------
+			 O | O | X 
+			-----------
+			 X | O | * 
+
+NORMAL has put a X in cell 9
+
+			 X | X | O 
+			-----------
+			 O | O | X 
+			-----------
+			 X | O | X 
+
+It's a draw
+
+Choose a cell numbered from 1 to 9 as below and play
+
+			 1 | 2 | 3 
+			-----------
+			 4 | 5 | 6 
+			-----------
+			 7 | 8 | 9 
+
+NORMAL has put a X in cell 6
+
+			 * | * | * 
+			-----------
+			 * | * | X 
+			-----------
+			 * | * | * 
+
+PRUNE has put a O in cell 3
+
+			 * | * | O 
+			-----------
+			 * | * | X 
+			-----------
+			 * | * | * 
+
+NORMAL has put a X in cell 1
+
+			 X | * | O 
+			-----------
+			 * | * | X 
+			-----------
+			 * | * | * 
+
+PRUNE has put a O in cell 4
+
+			 X | * | O 
+			-----------
+			 O | * | X 
+			-----------
+			 * | * | * 
+
+NORMAL has put a X in cell 2
+
+			 X | X | O 
+			-----------
+			 O | * | X 
+			-----------
+			 * | * | * 
+
+PRUNE has put a O in cell 5
+
+			 X | X | O 
+			-----------
+			 O | O | X 
+			-----------
+			 * | * | * 
+
+NORMAL has put a X in cell 7
+
+			 X | X | O 
+			-----------
+			 O | O | X 
+			-----------
+			 X | * | * 
+
+PRUNE has put a O in cell 8
+
+			 X | X | O 
+			-----------
+			 O | O | X 
+			-----------
+			 X | O | * 
+
+NORMAL has put a X in cell 9
+
+			 X | X | O 
+			-----------
+			 O | O | X 
+			-----------
+			 X | O | X 
+
+It's a draw
+
+Choose a cell numbered from 1 to 9 as below and play
+
+			 1 | 2 | 3 
+			-----------
+			 4 | 5 | 6 
+			-----------
+			 7 | 8 | 9 
+
+NORMAL has put a X in cell 8
+
+			 * | * | * 
+			-----------
+			 * | * | * 
+			-----------
+			 * | X | * 
+
+PRUNE has put a O in cell 2
+
+			 * | O | * 
+			-----------
+			 * | * | * 
+			-----------
+			 * | X | * 
+
+NORMAL has put a X in cell 1
+
+			 X | O | * 
+			-----------
+			 * | * | * 
+			-----------
+			 * | X | * 
+
+PRUNE has put a O in cell 7
+
+			 X | O | * 
+			-----------
+			 * | * | * 
+			-----------
+			 O | X | * 
+
+NORMAL has put a X in cell 3
+
+			 X | O | X 
+			-----------
+			 * | * | * 
+			-----------
+			 O | X | * 
+
+PRUNE has put a O in cell 5
+
+			 X | O | X 
+			-----------
+			 * | O | * 
+			-----------
+			 O | X | * 
+
+NORMAL has put a X in cell 4
+
+			 X | O | X 
+			-----------
+			 X | O | * 
+			-----------
+			 O | X | * 
+
+PRUNE has put a O in cell 6
+
+			 X | O | X 
+			-----------
+			 X | O | O 
+			-----------
+			 O | X | * 
+
+NORMAL has put a X in cell 9
+
+			 X | O | X 
+			-----------
+			 X | O | O 
+			-----------
+			 O | X | X 
+
+It's a draw
+
+Choose a cell numbered from 1 to 9 as below and play
+
+			 1 | 2 | 3 
+			-----------
+			 4 | 5 | 6 
+			-----------
+			 7 | 8 | 9 
+
+PRUNE has put a O in cell 8
+
+			 * | * | * 
+			-----------
+			 * | * | * 
+			-----------
+			 * | O | * 
+
+NORMAL has put a X in cell 2
+
+			 * | X | * 
+			-----------
+			 * | * | * 
+			-----------
+			 * | O | * 
+
+PRUNE has put a O in cell 1
+
+			 O | X | * 
+			-----------
+			 * | * | * 
+			-----------
+			 * | O | * 
+
+NORMAL has put a X in cell 7
+
+			 O | X | * 
+			-----------
+			 * | * | * 
+			-----------
+			 X | O | * 
+
+PRUNE has put a O in cell 3
+
+			 O | X | O 
+			-----------
+			 * | * | * 
+			-----------
+			 X | O | * 
+
+NORMAL has put a X in cell 5
+
+			 O | X | O 
+			-----------
+			 * | X | * 
+			-----------
+			 X | O | * 
+
+PRUNE has put a O in cell 4
+
+			 O | X | O 
+			-----------
+			 O | X | * 
+			-----------
+			 X | O | * 
+
+NORMAL has put a X in cell 6
+
+			 O | X | O 
+			-----------
+			 O | X | X 
+			-----------
+			 X | O | * 
+
+PRUNE has put a O in cell 9
+
+			 O | X | O 
+			-----------
+			 O | X | X 
+			-----------
+			 X | O | O 
+
+It's a draw
+
+Choose a cell numbered from 1 to 9 as below and play
+
+			 1 | 2 | 3 
+			-----------
+			 4 | 5 | 6 
+			-----------
+			 7 | 8 | 9 
+
+NORMAL has put a X in cell 6
+
+			 * | * | * 
+			-----------
+			 * | * | X 
+			-----------
+			 * | * | * 
+
+PRUNE has put a O in cell 3
+
+			 * | * | O 
+			-----------
+			 * | * | X 
+			-----------
+			 * | * | * 
+
+NORMAL has put a X in cell 1
+
+			 X | * | O 
+			-----------
+			 * | * | X 
+			-----------
+			 * | * | * 
+
+PRUNE has put a O in cell 4
+
+			 X | * | O 
+			-----------
+			 O | * | X 
+			-----------
+			 * | * | * 
+
+NORMAL has put a X in cell 2
+
+			 X | X | O 
+			-----------
+			 O | * | X 
+			-----------
+			 * | * | * 
+
+PRUNE has put a O in cell 5
+
+			 X | X | O 
+			-----------
+			 O | O | X 
+			-----------
+			 * | * | * 
+
+NORMAL has put a X in cell 7
+
+			 X | X | O 
+			-----------
+			 O | O | X 
+			-----------
+			 X | * | * 
+
+PRUNE has put a O in cell 8
+
+			 X | X | O 
+			-----------
+			 O | O | X 
+			-----------
+			 X | O | * 
+
+NORMAL has put a X in cell 9
+
+			 X | X | O 
+			-----------
+			 O | O | X 
+			-----------
+			 X | O | X 
+
+It's a draw
+
+Choose a cell numbered from 1 to 9 as below and play
+
+			 1 | 2 | 3 
+			-----------
+			 4 | 5 | 6 
+			-----------
+			 7 | 8 | 9 
+
+PRUNE has put a O in cell 9
+
+			 * | * | * 
+			-----------
+			 * | * | * 
+			-----------
+			 * | * | O 
+
+NORMAL has put a X in cell 5
+
+			 * | * | * 
+			-----------
+			 * | X | * 
+			-----------
+			 * | * | O 
+
+PRUNE has put a O in cell 1
+
+			 O | * | * 
+			-----------
+			 * | X | * 
+			-----------
+			 * | * | O 
+
+NORMAL has put a X in cell 2
+
+			 O | X | * 
+			-----------
+			 * | X | * 
+			-----------
+			 * | * | O 
+
+PRUNE has put a O in cell 8
+
+			 O | X | * 
+			-----------
+			 * | X | * 
+			-----------
+			 * | O | O 
+
+NORMAL has put a X in cell 7
+
+			 O | X | * 
+			-----------
+			 * | X | * 
+			-----------
+			 X | O | O 
+
+PRUNE has put a O in cell 3
+
+			 O | X | O 
+			-----------
+			 * | X | * 
+			-----------
+			 X | O | O 
+
+NORMAL has put a X in cell 6
+
+			 O | X | O 
+			-----------
+			 * | X | X 
+			-----------
+			 X | O | O 
+
+PRUNE has put a O in cell 4
+
+			 O | X | O 
+			-----------
+			 O | X | X 
+			-----------
+			 X | O | O 
+
+It's a draw
+
+-------------------------------------------------------------------
+
+
+
+AFTER 10 TRIALS; 
+PRUNE WINS: 0
+DRAWS: 10
+NORMAL WINS: 0
+
+-------------------------------------------------------------------
+
